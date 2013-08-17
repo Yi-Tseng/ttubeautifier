@@ -1,40 +1,3 @@
-// remove all attribute method
-jQuery.fn.removeAttributes = function() {
-  return this.each(function() {
-    var attributes = $.map(this.attributes, function(item) {
-      return item.name;
-    });
-    var img = $(this);
-    $.each(attributes, function(i, item) {
-    img.removeAttr(item);
-    });
-  });
-}
-
-// clear all stuff...
-// $('html > body').empty();
-$('html > body').removeAttributes();
-$('html > head').empty();
-
-// remove unuse stuff
-$('#logo').remove();
-
-// add css(maybe not) and jquery
-var bs_css = document.createElement('link');
-bs_css.href = 'http://getbootstrap.com/dist/css/bootstrap.css';
-bs_css.rel = 'stylesheet';
-$('html > head').append(bs_css);
-
-// jquery
-var jq_script = document.createElement('script');
-jq_script.src = 'http://code.jquery.com/jquery-1.10.2.min.js';
-$('html > head').append(jq_script);
-
-// botstrap js
-// var bs_script = document.createElement('script');
-// bs_script.src = 'http://getbootstrap.com/dist/js/bootstrap.js';
-// $('html > head').append(bs_script);
-
 var menu_obj = [
   {name:'教務', items:[
     {name:'註冊組', link:'th'}, 
@@ -156,13 +119,13 @@ var menu_obj = [
 
 // create navgate bar
 var navbar = document.createElement('div');
-navbar.setAttribute('class', 'navbar');
+navbar.setAttribute('class', 'navbar navbar-fixed-top');
 $('html > body').prepend(navbar);
 
 // create navbar brand
 var navbar_brand = document.createElement('a');
 navbar_brand.setAttribute('class', 'navbar-brand');
-navbar_brand.href = '#';
+navbar_brand.href = 'http://stucis.ttu.edu.tw/bulletin/inbox.php';
 navbar_brand.appendChild(document.createTextNode( "STUCIS" ));
 navbar.appendChild(navbar_brand);
 
@@ -214,22 +177,13 @@ for(var k in menu_obj){
   }
   i.appendChild(dmenu);
 }
+// add logout item
+var i = document.createElement('li');
+i.setAttribute('class', 'dropdown');
+var a = document.createElement('a');
+a.setAttribute('href', 'http://stucis.ttu.edu.tw/logout.php');
+a.appendChild(document.createTextNode('登出'));
+i.appendChild(a);
+navbar_nav.appendChild(i);
 
 navbar.appendChild(navbar_nav);
-
-
-// $('html > body').prepend('<ul class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li class="dropdown-header">Dropdown header</li><li><a href="#">Separated link</a></li><li><a href="#">One more separated link</a></li></ul></li><li class="dropdown"><a>學務<b class="caret"></b></a></li>        <li><a>總務<b class="caret"></b></a></li><li><a>圖書館<b class="caret"></b></a></li><li><a>電算<b class="caret"></b></a></li><li><a>選課<b class="caret"></b></a></li>        <li><a>暑休選課<b class="caret"></b></a></li><li><a>自治會<b class="caret"></b></a></li><li><a>登出</a></li></ul></div>');
-
-// set table class
-$('table').removeClass('listtab');
-$('table').addClass('table');
-
-
-
-
-
-
-
-
-
-

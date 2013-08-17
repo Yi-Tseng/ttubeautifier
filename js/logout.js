@@ -1,0 +1,1 @@
+$('input')[1].setAttribute('class', 'btn btn-danger')
