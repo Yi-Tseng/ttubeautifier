@@ -1,0 +1,40 @@
+{
+  // 必要
+  "name": "大同美化師",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  // 建議，非必要
+  "description": "來用 bootstrap 美化一下資訊系統吧！",
+  "icons": {"16":"images/16.png",
+            "48":"images/48.png",
+            "128":"images/128.png"},
+  
+
+  "page_action": {
+    "default_icon": "images/128.png"
+    },
+  
+
+  "content_scripts":[
+    {
+        "matches": ["http://stucis.ttu.edu.tw/stucis.htm"],
+        "js": ["js/enter.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/stumain.php"],
+        "js": ["js/stumain.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/login.php"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/login.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/bulletin/inbox.php*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/inbox.js"]
+    }
+
+  ]
+}

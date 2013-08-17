@@ -1,0 +1,1 @@
+window.location='http://stucis.ttu.edu.tw/login.php';
