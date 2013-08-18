@@ -186,3 +186,6 @@ i.appendChild(a);
 navbar_nav.appendChild(i);
 
 navbar.appendChild(navbar_nav);
+
+// push down body
+$('html > body')[0].setAttribute('style', 'padding-top: 60px;');

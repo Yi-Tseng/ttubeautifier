@@ -27,8 +27,6 @@ var jq_script = document.createElement('script');
 jq_script.src = 'http://code.jquery.com/jquery-1.10.2.min.js';
 $('html > head').append(jq_script);
 
-$('html > body')[0].setAttribute('style', 'padding-top: 60px;');
-
 // set footer
 $('#footer')[0].setAttribute('style', 'position:fixed; bottom:0; right:0px; left:0px;');
 $('#footer')[0].setAttribute('align', 'center');
