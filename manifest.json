@@ -158,6 +158,18 @@
         "matches": ["http://stucis.ttu.edu.tw/newstud.php"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/change_table.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/general/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/parkingmanage/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
     }
+    
+
   ]
 }
