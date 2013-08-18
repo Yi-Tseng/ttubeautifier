@@ -94,7 +94,7 @@ var menu_obj = [
     {name:'教師授課表', link:'http://stucis.ttu.edu.tw/selcourse/ViewTeacher.php'}, 
     {name:'通識課時間表', link:'http://stucis.ttu.edu.tw/selcourse/ViewGeneral.php'}, 
     {name:'教室使用狀況', link:'http://stucis.ttu.edu.tw/selcourse/ViewRoom.php'}, 
-    {name:'系統資訊', link:'#'}, 
+    {name:'系統資訊', link:'th'}, 
     {name:'使用說明', link:'http://stucis.ttu.edu.tw/help/selhelp.htm'}, 
     {name:'選課記錄', link:'http://stucis.ttu.edu.tw/selcourse/SelRecord.php'}, 
   ]},
