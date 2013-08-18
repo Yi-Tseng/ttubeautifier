@@ -1,6 +1,6 @@
 {
   "name": "BootTTUCIS",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "manifest_version": 2,
 
   "description": "來用 bootstrap 美化一下資訊系統吧！",
@@ -51,7 +51,7 @@
     {
         "matches": ["http://stucis.ttu.edu.tw/selcourse/*"],
         "css": ["css/bootstrap.min.css"],
-        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js", "js/selcourse.js"]
     },
     {
         "matches": ["http://stucis.ttu.edu.tw/cc/*"],
@@ -128,15 +128,16 @@
         "matches": ["http://stucis.ttu.edu.tw/admin/*"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
-    }
-    
-
-
-
-
-
-    
-    
-    
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/questionnaire/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/stuvote/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+    }    
   ]
 }

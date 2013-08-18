@@ -1,0 +1,1 @@
+$('#logo').attr('align', 'center');
