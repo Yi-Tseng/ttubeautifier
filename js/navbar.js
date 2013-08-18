@@ -18,9 +18,8 @@ var menu_obj = [
     {name:'本學期功課表', link:'http://stucis.ttu.edu.tw/academic/schedule.php'}, 
     {name:'學程資訊', link:'http://stucis.ttu.edu.tw/academic/trackstatus.php'}, 
     {name:'課程地圖', link:'http://stucis.ttu.edu.tw/academic/sbjmap.php'}, 
-    {name:'教學組', link:'th'}, 
+    {name:'教學組 & 意見調查', link:'th'}, 
     {name:'英文檢定成績', link:'http://stucis.ttu.edu.tw/etest/engtest.php'}, 
-    {name:'意見調查', link:'th'}, 
     {name:'選課意見調查', link:'http://stucis.ttu.edu.tw/selclaopin/opinion.php'}, 
   ]},
   {name:'學務', items:[

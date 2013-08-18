@@ -1,10 +1,8 @@
 {
-  // 必要
-  "name": "大同美化師",
-  "version": "1.0",
+  "name": "BootTTUCIS",
+  "version": "1.0.8",
   "manifest_version": 2,
 
-  // 建議，非必要
   "description": "來用 bootstrap 美化一下資訊系統吧！",
   "icons": {"16":"images/16.png",
             "48":"images/48.png",
@@ -36,6 +34,11 @@
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js", "js/bulletin.js"]
     },
     {
+        "matches": ["http://stucis.ttu.edu.tw/academic/evaplan.htm"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/evaplan.js"]
+    },
+    {
         "matches": ["http://stucis.ttu.edu.tw/academic/*"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
@@ -65,10 +68,58 @@
         "matches": ["http://stucis.ttu.edu.tw/logout.php"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/logout.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/graduverify/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/registra/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://web2.ttu.edu.tw:8000/ttucis/stusys/EvaTch.asp"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/etest/engtest.php"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js", "js/engtest.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/selclaopin/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/absence/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/coloan/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/dormapply/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/photo/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/doupload.js"]
     }
-    
+
+
+
 
     
-
+    
+    
   ]
 }
