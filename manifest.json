@@ -123,7 +123,13 @@
         "matches": ["http://eboard.ttu.edu.tw/sugboard/*"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/admin/*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js"]
     }
+    
 
 
 
