@@ -1,5 +1,5 @@
 var menu_obj = [
-  {name:'教務', items:[
+  {name:'教務 (1)', items:[
     {name:'註冊組', link:'th'}, 
     {name:'各科成績', link:'http://stucis.ttu.edu.tw/academic/listscore.php'}, 
     {name:'期中預警', link:'http://stucis.ttu.edu.tw/academic/midwarning.php'}, 
@@ -10,7 +10,9 @@ var menu_obj = [
     {name:'註冊狀況', link:'http://stucis.ttu.edu.tw/academic/regstatus.php'}, 
     {name:'抵免修申請', link:'http://stucis.ttu.edu.tw/registra/submain.php'}, 
     {name:'學生證件申請', link:'http://stucis.ttu.edu.tw/academic/trans_index.php'}, 
-    {name:'畢業離校系統', link:'http://stucis.ttu.edu.tw/graduverify/graduxfer.php'}, 
+    {name:'畢業離校系統', link:'http://stucis.ttu.edu.tw/graduverify/graduxfer.php'}
+  ]},
+  {name:'教務 (2)', items:[
     {name:'課務組', link:'th'}, 
     {name:'大考座位表', link:'http://stucis.ttu.edu.tw/academic/examseat.php'}, 
     {name:'教學評量', link:'http://stucis.ttu.edu.tw/academic/evaplan.htm'}, 
@@ -20,7 +22,7 @@ var menu_obj = [
     {name:'課程地圖', link:'http://stucis.ttu.edu.tw/academic/sbjmap.php'}, 
     {name:'教學組 & 意見調查', link:'th'}, 
     {name:'英文檢定成績', link:'http://stucis.ttu.edu.tw/etest/engtest.php'}, 
-    {name:'選課意見調查', link:'http://stucis.ttu.edu.tw/selclaopin/opinion.php'}, 
+    {name:'選課意見調查', link:'http://stucis.ttu.edu.tw/selclaopin/opinion.php'}
   ]},
   {name:'學務', items:[
     {name:'出缺勤資訊', link:'th'}, 
@@ -55,7 +57,7 @@ var menu_obj = [
     {name:'讀者滿意度調查', link:'http://library.ttu.edu.tw/files/15-1015-6536,c658-1.php'}, 
   ]}, 
   
-  {name:'電算', items:[
+  {name:'電算 (1)', items:[
     {name:'校務資訊', link:'th'}, 
     {name:'個人照片上傳', link:'http://stucis.ttu.edu.tw/photo/doupload.php'}, 
     {name:'個人訊息中心', link:'http://stucis.ttu.edu.tw/bulletin/bulletinxfer.php'}, 
@@ -69,6 +71,8 @@ var menu_obj = [
     {name:'個人網頁管理', link:'http://stucis.ttu.edu.tw/cc/webpwd.php'}, 
     {name:'Proxy認證申請', link:'http://stucis.ttu.edu.tw/cc/proxypwd.php'}, 
     {name:'宿網IP申請', link:'http://stucis.ttu.edu.tw/cc/dormnetxfer.php'}, 
+  ]},
+  {name:'電算 (2)', items:[
     {name:'系統資訊', link:'th'}, 
     {name:'變更密碼', link:'http://stucis.ttu.edu.tw/admin/chgpwd.php'}, 
     {name:'登入紀錄', link:'http://stucis.ttu.edu.tw/cc/lastlogin.php'}, 
@@ -77,7 +81,8 @@ var menu_obj = [
     {name:'問卷調查', link:'http://stucis.ttu.edu.tw/questionnaire/maintitle.php'}, 
     {name:'投票系統', link:'http://stucis.ttu.edu.tw/stuvote/usermain.php'}, 
   ]},
-  {name:'選課', items:[
+  {name:'選課 (1)', items:[
+    {name:'選課首頁', link:'http://stucis.ttu.edu.tw/menu/seltop.php'}, 
     {name:'選課處理', link:'th'}, 
     {name:'各班課程', link:'http://stucis.ttu.edu.tw/selcourse/ListClassCourse.php'}, 
     {name:'全校教師課程', link:'http://stucis.ttu.edu.tw/selcourse/ListTeacher.php'}, 
@@ -89,6 +94,8 @@ var menu_obj = [
     {name:'列印已選課程', link:'http://stucis.ttu.edu.tw/selcourse/ListSelected.php'}, 
     {name:'選課表', link:'http://stucis.ttu.edu.tw/selcourse/ListCourseSheet.php'}, 
     {name:'本人功課表', link:'http://stucis.ttu.edu.tw/selcourse/Schedule.php'}, 
+  ]},
+  {name:'選課 (2)', items:[
     {name:'課程查詢', link:'th'}, 
     {name:'班級功課表', link:'http://stucis.ttu.edu.tw/selcourse/ViewClass.php'}, 
     {name:'教師授課表', link:'http://stucis.ttu.edu.tw/selcourse/ViewTeacher.php'}, 
