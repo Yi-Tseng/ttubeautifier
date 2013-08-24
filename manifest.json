@@ -1,6 +1,6 @@
 {
   "name": "BootTTUCIS",
-  "version": "1.1.8",
+  "version": "1.2.2",
   "manifest_version": 2,
 
   "description": "來用 bootstrap 美化一下資訊系統吧！",
@@ -27,6 +27,11 @@
         "matches": ["http://stucis.ttu.edu.tw/login.php"],
         "css": ["css/bootstrap.min.css"],
         "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/login.js"]
+    },
+    {
+        "matches": ["http://stucis.ttu.edu.tw/bulletin/inbox.php*"],
+        "css": ["css/bootstrap.min.css"],
+        "js": ["js/jquery-1.10.2.min.js", "js/bootstrap.min.js", "js/pre.js", "js/navbar.js", "js/change_table.js", "js/bulletin.js", "js/inbox.js"]
     },
     {
         "matches": ["http://stucis.ttu.edu.tw/bulletin/*"],
