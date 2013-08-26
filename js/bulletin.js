@@ -3,7 +3,7 @@ $('#logo').remove();
 
 // change menu
 $('#menu')[0].setAttribute('style', 'margin:10px;');
-for(var k in $('#menu > a')) {
+for(var k =0; k < 4; k++) {
 	$('#menu > a')[k].setAttribute('class', 'btn btn-info');
 }
 
